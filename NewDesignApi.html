@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghibli Anime</title>
+    <link rel = "stylesheet" href = "NewStyle.css">
+</head>
+<body>
+<div class = "container">
+    <div class = "film-wrapper">
+
+        <div class = "film-search">
+            <h2 class = "title">Masterpieces for your soul</h2>
+            <blockquote> It’s not really important what color your dress is. What matters is the heart inside. <br>
+                <cite> – Kokiri, Kiki's Delivery Service</cite>
+            </blockquote>
+
+            <form class = "film-search-box" id="search-form">
+                <input type = "text" class = "search-control" placeholder="Enter a word" id = "search-input">
+                <button type = "submit" class = "search-btn btn" id = "search-btn">
+                    🔍
+                </button>
+            </form>
+        </div>
+        <img id = "spinner" src = "image-cat-unscreen.gif" style = "display: none;">
+
+        <div class = "film-result">
+            <h2 class = "title">Your Search Results:</h2>
+            <div id= "film">
+<!--                &lt;!&ndash; film item &ndash;&gt;-->
+<!--                 <div class = "film-item">-->
+<!--                  <div class = "film-img">-->
+<!--                    <img src = "anime.jpg" alt = "anime">-->
+<!--                  </div>-->
+<!--                  <div class = "film-name">-->
+<!--                    <h3>Kiki's Delivery Service</h3>-->
+<!--                    <a href = "#" class = "description-btn">Get Description</a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; end of film item &ndash;&gt;-->
+            </div>
+        </div>
+
+        <div  class="R">
+            <a id = "link-advanced-search" class = "advanced-search" href = "#" >Advanced search</a><br>
+        </div>
+
+
+        <!-- end of results -->
+        <div class = "film-details">
+            <!-film-details- description close btn -->
+            <button type = "button" class = "btn description-close-btn" id = "description-close-btn">
+                &#10006;
+            </button>
+
+            <!-- film content -->
+            <div class = "film-details-content">
+<!--                 <h2 class = "description-title">films Name Here</h2>-->
+<!--                <p class = "description-author"> Hayao Miyazaki, 1989</p>-->
+<!--                <div class = "description-instruct">-->
+<!--                  <h3>Description:</h3>-->
+<!--                  <p> A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself-->
+<!--                      by running an air courier service. </p>-->
+
+<!--                </div>-->
+<!--                <div class = "description-film-img">-->
+<!--                  <img src = "anime.jpg" alt = "">-->
+<!--                </div>-->
+<!--                <div class = "description-link">-->
+<!--                  <a class = "link-search" href = "#" target = "_blank">Search anime</a>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
